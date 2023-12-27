@@ -1,15 +1,15 @@
 import React from "react";
 
-const SaveButton = ({ onSave }) => {
+const ResetButton = ({ onReset }) => {
   return (
     <button
       type="button"
       className="bg-slate-500 rounded-xl text-white py-2 px-4 text-xl font-medium hover:bg-black shadow-xl"
-      onClick={onSave}
+      onClick={onReset}
     >
-      Save
+      Reset
     </button>
   );
 };
 
-export default SaveButton;
+export default ResetButton;

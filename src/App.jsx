@@ -1,9 +1,9 @@
-import Header from "./Components/Header";
+import TextEditor from "./Components/TextEditor";
 
 function App() {
   return (
     <>
-      <Header />
+      <TextEditor />
     </>
   );
 }
